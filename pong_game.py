@@ -103,3 +103,7 @@ while True:
     if int(ball.xcor()) == 330 and int(ball.ycor()) in range(int(paddle_b.ycor() - 55), int(paddle_b.ycor() + 55)):
         ball.sety(ball.ycor())
         ball.dx *= -1
+
+    if int(ball.xcor()) == -330 and int(ball.ycor()) in range(int(paddle_a.ycor() - 55), int(paddle_a.ycor() + 55)):
+        ball.sety(ball.ycor())
+        ball.dx *= -1
