@@ -91,7 +91,7 @@ result_b.speed(0)
 result_b.color('white')
 result_b.penup()
 result_b.goto(380, 270)
-result_b.write(0, move=False, align='right', font=('Arial', 16, 'bold'))
+result_b.write(0, align='right', font=('Arial', 16, 'bold'))
 result_b.hideturtle()
 
 
@@ -126,7 +126,7 @@ while True:
         ball.dx *= -1
         goals_b += 1
         result_b.clear()
-        result_b.write(goals_b, move=False, align='right', font=('Arial', 16, 'bold'))
+        result_b.write(goals_b, align='right', font=('Arial', 16, 'bold'))
         
         
     # ball hitting the paddle
